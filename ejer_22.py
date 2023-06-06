@@ -41,8 +41,8 @@ personajes_con_S = [personaje for personaje in cola_personajes if personaje[0][0
 print("e) Datos de los superhéroes o personajes cuyos nombres comienzan con la letra S:")
 for personaje in personajes_con_S:
     print("   - Nombre del personaje:", personaje[0])
-    print("     Nombre del superhéroe:", personaje[1])
-    print("     Género:", personaje[2])
+    print("   - Nombre del superhéroe:", personaje[1])
+    print("   - Género:", personaje[2])
 
 #f) Determinar si el personaje Carol Danvers se encuentra en la cola e indicar su nombre de superhéroe
 for personaje in cola_personajes:
